@@ -48,7 +48,7 @@
     "members": [
         {
             "name": "しゃけ",
-            "entered": 2021,
+            "entered": 2023,
             "faculty": "GP",
             "belonging": [
                 "プログラミングサークル",
@@ -56,15 +56,11 @@
                 "電子計算組織研究会(EDPS)"
             ],
             "sns": [
-                {
-                    "type": "twitter",
-                    "name": "23_tas9"
-                }
             ]
         },
         {
             "name": "MM",
-            "entered": 2021,
+            "entered": 2023,
             "faculty": "HB",
             "belonging": [
                 "プログラミングサークル"
