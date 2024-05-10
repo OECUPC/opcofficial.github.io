@@ -9,7 +9,7 @@ interface Data {
 export const handler: Handlers<Data> = {
 	async GET(_req, ctx) {
 
-		const xml = await Deno.readTextFile("./static/blogs.rss");
+		const xml = await Deno.readTextFile("./static/activities.rss");
 		const feed = await parseFeed(xml);
 
 		return ctx.render({ feed });
@@ -23,7 +23,8 @@ export default function Home({ data }: PageProps<Data>) {
 
 	const ImageTypes = [
 		"image/png",
-		"image/jpeg"
+		"image/jpeg",
+        "image/jpg"
 	];
 
 	console.log(feed);
@@ -34,7 +35,7 @@ export default function Home({ data }: PageProps<Data>) {
 				<link rel="stylesheet" href="/styles/css/blog.css" />
 			</Head>
 			<main>
-				<h1 className="center-align">ブログ</h1>
+				<h1 className="center-align">活動詳細</h1>
 				{/*<h1 className="center-align">{feed.title.value}</h1>*/}
 
 				<article className="article-cards grid-container">

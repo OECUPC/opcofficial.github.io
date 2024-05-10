@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <!-- ここからブログ全体の説明になります -->
+        <title>OECUプログラミングサークル 活動</title>
+        <link>https://oecupc.github.io/activities</link>
+        <description>ブログ全体の説明</description>
+        <lastBuildDate>Sun, 1 Apr 2024 12:34:56 +0900</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>OPCMS</generator>
+        <item>
+            <title>ICPC 2022 Asia Yokohama Regional 国内予選</title>
+            <author>
+                
+            </author>
+            <link>https://github.io/activities/ICPC2022Asia</link>
+            <description>
+                
+            </description>
+            <pubDate>Sun, 1 Apr 2024 12:34:56 +0900</pubDate>
+            <guid isPermalink="false">oecu-pc://ICPC2022Asia</guid>
+            <category>カテゴリ1</category>
+            <category>カテゴリ2</category>
+            <enclosure url="images/activities/ICPC2022Asia.jpg" type="image/jpg"
+                length="0" />
+        </item>
+
+        <!-- 2つ目のエントリ -->
+        <item>
+            <title>記事のタイトル</title>
+            <link>https://github.io/blogs/xxxxxx</link>
+            <description>本文
+                &lt;h1&gt;見出し1&lt;/h1&gt;
+                &lt;h2&gt;見出し2&lt;/h2&gt;
+                &lt;h3&gt;見出し3&lt;/h3&gt;
+                &lt;h4&gt;見出し4&lt;/h4&gt;
+                &lt;p&gt;本文本文本文本文本文本文本&lt;/p&gt;
+            </description>
+            <pubDate>Sun, 1 Apr 2024 12:34:56 +0900</pubDate>
+            <guid isPermalink="false">oecu-pc://xxxxxxxxxxx</guid>
+            <category>カテゴリ1</category>
+            <category>カテゴリ2</category>
+            <!--<enclosure url="" type="image/png" length="0" />-->
+        </item>
+    </channel>
+</rss>
