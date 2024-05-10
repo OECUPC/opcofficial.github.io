@@ -4,10 +4,6 @@
 $article-cards-width: var.$breakpoint--pc-min;
 
 .article-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em 1.5em;
-
     margin: 0 auto;
     padding: 16px;
 
@@ -47,6 +43,9 @@ $article-cards-width: var.$breakpoint--pc-min;
             text-align: center;
 
             &__image {
+                // 下に隙間ができるのを防止
+                vertical-align: middle;
+
                 max-width: 100%;
                 height: 240px;
             }
@@ -57,17 +56,19 @@ $article-cards-width: var.$breakpoint--pc-min;
 @media screen and (max-width: var.$breakpoint--pc-min) {
 
     .article-cards {
-        grid-template-columns: repeat(2, 1fr);
 
         &__item {
             height: 270px;
 
+            &__title {
+                margin: 0;
+                font-size: 16px;
+                white-space: nowrap;
+            }
+
             &__description {
                 height: 120px;
-
-                & h3 {
-                    margin: 0;
-                }
+                padding: 4px;
             }
 
             &__attachment {

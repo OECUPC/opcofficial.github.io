@@ -1,0 +1,76 @@
+{
+    "leaders": [
+        {
+            "name": "錦",
+            "entered": 2021,
+            "faculty": "HT",
+            "clubs": [
+                "プログラミングサークル",
+                "電子計算組織研究会(EDPS)"
+            ],
+            "sns": [
+                
+            ]
+        }
+    ],
+    "subleaders": [
+        {
+            "name": "みかみん",
+            "entered": 2023,
+            "faculty": "HW",
+            "clubs": [
+                "プログラミングサークル",
+                "東方電通録",
+                "電子計算組織研究会(EDPS)"
+            ],
+            "sns": [
+            ]
+        }
+    ],
+    "accountants": [
+        {
+            "name": "けいと",
+            "entered": 2023,
+            "faculty": "HW",
+            "clubs": [
+                "プログラミングサークル",
+                "東方電通録",
+                "電子計算組織研究会(EDPS)"
+            ],
+            "sns": [
+                {
+                    "type": "twitter",
+                    "id": "pjktkt5230"
+                }
+            ]
+        }
+    ],
+    "members": [
+        {
+            "name": "しゃけ",
+            "entered": 2023,
+            "faculty": "GP",
+            "clubs": [
+                "プログラミングサークル",
+                "東方電通録",
+                "電子計算組織研究会(EDPS)"
+            ],
+            "sns": [
+            ]
+        },
+        {
+            "name": "MM",
+            "entered": 2023,
+            "faculty": "HB",
+            "clubs": [
+                "プログラミングサークル"
+            ],
+            "sns": [
+                {
+                    "type": "twitter",
+                    "id": "MM_oecu"
+                }
+            ]
+        }
+    ]
+}

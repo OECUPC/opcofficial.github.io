@@ -16,10 +16,34 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   margin: 0;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  padding-left: 16px;
+  border-left: 8px solid #cfffc5;
 }
 
 p {
   margin: 0;
+}
+
+main {
+  width: 960px;
+  margin: 16px auto;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+}
+.external-link svg {
+  width: 24px;
+  height: 24px;
 }
 
 .official-icon__small {
@@ -36,7 +60,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 960px;
   min-height: 512px;
   margin: 0 auto;
 }
@@ -52,34 +75,38 @@ p {
   align-items: center;
 }
 
-.sub-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 960px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em 1.5em;
 }
 
-.media-content {
+.media-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 960px;
 }
-.media-content__content {
+.media-container__content {
   width: 480px;
   padding: 1em;
 }
-.media-content__image {
+.media-container__image {
   display: flex;
   width: 480px;
   margin: 0;
 }
-.media-content__image img {
+.media-container__image img {
   width: 100%;
 }
-.media-content:nth-child(odd) {
+.media-container:nth-child(odd) {
   flex-direction: row-reverse;
+}
+
+.members-container {
+  margin: 8px;
+  padding-left: 32px;
+  border: 1px dashed #ffcc5f;
 }
 
 .toc-container {
@@ -132,16 +159,13 @@ p {
   .hero {
     height: 420px;
   }
-  .media-content {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .media-container {
     flex-direction: column-reverse;
   }
-  .media-content:nth-child(odd) {
+  .media-container:nth-child(odd) {
     flex-direction: column-reverse;
-  }
-  .sub-content {
-    flex-direction: column;
-  }
-  .sub-content section {
-    padding: 1em;
   }
 }
