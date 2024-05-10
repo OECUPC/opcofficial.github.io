@@ -1,5 +1,11 @@
 $breakpoint--pc-min: 960px;
 
-$color--main: #505050;      //25%
-$color--base: #cfffc5;      //70%
+/// ------------ ///
+/// 色の理想の割合 
+/// base: 70%
+/// main: 25%
+/// accent: 5% 
+/// ------------ ///
+$color--base: #505050;      //70%
+$color--main: #cfffc5;      //25%
 $color--accent: #ffcc5f;    //5%

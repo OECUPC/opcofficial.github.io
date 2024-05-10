@@ -16,7 +16,7 @@
 - 文字コードは`UTF-8`
 - TypeScriptの命名規則は[Google TypeScript Style Guid](https://google.github.io/styleguide/tsguide.html#syntax)に準ずる
 - タグのClass名はBEM記法を用いる
-- [CSSプロパティの書き順](https://zenn.dev/web_tips/articles/f1167f4314dcb3, "参考記事")
+- [CSSプロパティの書き順](https://zenn.dev/web_tips/articles/f1167f4314dcb3 "参考記事")
     - 視覚整形モデル
     - ボックスモデル
     - 背景

@@ -27,8 +27,8 @@ export default function App({ Component }: PageProps) {
         <meta name="twitter:card" content="summary" />
 
         {/* サイト アイコン */}
-        <link rel="apple-touch-icon" type="image/png" href="./images/favicon/apple-touch-icon-180x180.png" />
-        <link rel="icon" type="image/png" href="./images/favicon/icon-192x192.png" />
+        <link rel="apple-touch-icon" type="image/png" href="/images/favicon/apple-touch-icon-180x180.png" />
+        <link rel="icon" type="image/png" href="/images/favicon/icon-192x192.png" />
 
         {/* フォント読み込み */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,9 +36,9 @@ export default function App({ Component }: PageProps) {
         <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet" />
 
         {/* スタイル適用 */}
-        <link rel="stylesheet" href="./styles/css/main.css" />
-        <link rel="stylesheet" href="./styles/css/header.css" />
-        <link rel="stylesheet" href="./styles/css/footer.css" />
+        <link rel="stylesheet" href="/styles/css/main.css" />
+        <link rel="stylesheet" href="/styles/css/header.css" />
+        <link rel="stylesheet" href="/styles/css/footer.css" />
       </Head>
       <body>
         <Header />

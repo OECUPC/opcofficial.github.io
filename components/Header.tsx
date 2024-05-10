@@ -5,24 +5,16 @@ export function Header() {
       "href": "/",
     },
     {
-      "text": "About",
-      "href": "/about",
-    },
-    {
       "text": "Activities",
       "href": "/activities",
-    },
-    {
-      "text": "Blogs",
-      "href": "/blogs",
     },
     {
       "text": "Works",
       "href": "/works",
     },
     {
-      "text": "SNS",
-      "href": "/sns",
+      "text": "Blogs",
+      "href": "/blogs",
     },
     {
       "text": "Contact",
@@ -37,10 +29,18 @@ export function Header() {
         <a className="logo" href="/">
           <img
             className="official-icon__small"
-            src="./images/icons/official_white.png"
+            src="/images/icons/official_white.png"
           />
           <p>OECUPC</p>
         </a>
+        
+        {/* レスポンシブ時のボタン */}
+        <input type="checkbox" id="toggle-global-nav" />
+        <label for="toggle-global-nav" class="global-nav__toggle-label">
+          <span class="global-nav__toggle-label__animation-bar"></span>
+          <span class="global-nav__toggle-label__animation-bar"></span>
+        </label>
+
         {/* Global nav */}
         <nav className="global-nav">
           <ul className="global-nav__list">
