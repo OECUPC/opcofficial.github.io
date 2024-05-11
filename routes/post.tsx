@@ -1,9 +1,11 @@
-
+import Poster from "../islands/Poster.tsx"
 
 export default function Home(){
     return (
-        <main>
-            <a href="/logout">ログアウト</a>
-        </main>
+        <>
+            <main>
+                <Poster />   
+            </main>
+        </>
     )
 }

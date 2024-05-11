@@ -9,7 +9,7 @@ export function MDParser(text: string){
     // ---で囲まれている箇所の摘出と改行の削除
     const metaText = text.match(matchReg)?.at(0)?.trim();
     // ---を含む囲まれた箇所の削除
-    const bodyText = text.replace(replaceReg, '');
+    const bodyText = text.replace(replaceReg, '').trim();
 
     const meta: Meta = {};
 

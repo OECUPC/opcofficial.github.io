@@ -10,7 +10,7 @@ export const handler: Handlers = {
     if (form.get("password") === Deno.env.get("AuthPassword")) {
       setCookie(headers, {
         name: "auth",
-        value: Deno.env.get("AuthCookieName"),
+        value: Deno.env.get("AuthCookieName") || "",
         maxAge: 31536000,
         sameSite: "Lax",
         domain: url.hostname,

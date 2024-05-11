@@ -2,7 +2,8 @@ import { FreshContext } from "$fresh/server.ts";
 import { getCookies } from "$std/http/cookie.ts";
 
 const includePaths = [
-    "/post"
+    "/post",
+    "/api/post"
 ];
 
 export async function handler(

@@ -7,13 +7,14 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.tsx";
 import * as $activities from "./routes/activities.tsx";
 import * as $api_login from "./routes/api/login.ts";
+import * as $api_post from "./routes/api/post.ts";
 import * as $blogs from "./routes/blogs.tsx";
 import * as $blogs_name_ from "./routes/blogs/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $login from "./routes/login.tsx";
 import * as $logout from "./routes/logout.tsx";
 import * as $post from "./routes/post.tsx";
-
+import * as $Poster from "./islands/Poster.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -23,6 +24,7 @@ const manifest = {
     "./routes/_middleware.tsx": $_middleware,
     "./routes/activities.tsx": $activities,
     "./routes/api/login.ts": $api_login,
+    "./routes/api/post.ts": $api_post,
     "./routes/blogs.tsx": $blogs,
     "./routes/blogs/[name].tsx": $blogs_name_,
     "./routes/index.tsx": $index,
@@ -30,7 +32,9 @@ const manifest = {
     "./routes/logout.tsx": $logout,
     "./routes/post.tsx": $post,
   },
-  islands: {},
+  islands: {
+    "./islands/Poster.tsx": $Poster,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
