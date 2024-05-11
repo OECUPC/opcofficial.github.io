@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>OECUプログラミングサークル 活動詳細ブログ</title>
+        <link>https://opcofficial.deno.dev/activitie/</link>
+        <description>これは活動詳細ブログ</description>
+        <lastBuildDate>Sat, 11 May 2024 16:44:55 GMT</lastBuildDate>
+        <docs>http://rsss.law.harvard.edu/tech/rss</docs>
+        <language>ja-jp</language>
+        <generator>OPCMS</generator>
+        
+        <item>
+            <title>テスト活動詳細ブログ</title>
+            
+            <description>
+OpenCVの画像
+
+あいうえお
+
+かきくけこ
+
+さしすせそ
+            </description>
+            <pubDate>Sat, 11 May 2024 16:44:55 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activitie://test</guid>
+            <category>テスト</category><category>OpenCV</category>
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/test/thumbnail.png" length="6923" type="image/png" />
+        </item>
+    </channel>
+</rss>

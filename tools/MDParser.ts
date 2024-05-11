@@ -1,4 +1,7 @@
 export interface Meta{
+    title: string,
+    author: string,
+    categories: string[],
     [key: string]: string | string[]
 }
 
@@ -11,7 +14,11 @@ export function MDParser(text: string){
     // ---を含む囲まれた箇所の削除
     const bodyText = text.replace(replaceReg, '').trim();
 
-    const meta: Meta = {};
+    const meta: Meta = {
+        title: "",
+        categories: [],
+        author: ""
+    };
 
     metaText?.split('\n').forEach(line =>{
         const index = line.indexOf(':');

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>OECUプログラミングサークル ブログ</title>
+        <link>https://opcofficial.deno.dev/blog/</link>
+        <description>これはブログです</description>
+        <lastBuildDate>Sat, 11 May 2024 16:44:55 GMT</lastBuildDate>
+        <docs>http://rsss.law.harvard.edu/tech/rss</docs>
+        <language>ja-jp</language>
+        <generator>OPCMS</generator>
+        
+        <item>
+            <title>タイトル</title>
+            
+            <description>
+## はじめに（見出し）
+文章を記入～
+
+メモ
+**太字**　アスタリスク２つで囲むと太字に
+            </description>
+            <pubDate>Sat, 11 May 2024 15:49:03 GMT</pubDate>
+            <guid isPermalink="false">oecupc-blog://aiueo-foobarhoge</guid>
+            <category>programming</category><category>csharp</category>
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/images/no_image.png" length="33015" type="image/png" />
+        </item>
+
+        <item>
+            <title>テストブログ</title>
+            
+            <description>
+OpenCVの画像
+
+あいうえお
+
+かきくけこ
+
+さしすせそ
+            </description>
+            <pubDate>Mon, 01 Apr 2024 03:34:56 GMT</pubDate>
+            <guid isPermalink="false">oecupc-blog://test</guid>
+            <category>テスト</category><category>OpenCV</category>
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/blog/test/thumbnail.png" length="6923" type="image/png" />
+        </item>
+
+        <item>
+            <title></title>
+            
+            <description>
+
+            </description>
+            <pubDate>Sat, 11 May 2024 13:31:51 GMT</pubDate>
+            <guid isPermalink="false">oecupc-blog://test2</guid>
+            
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/blog/test2/thumbnail.png" length="354674" type="image/png" />
+        </item>
+    </channel>
+</rss>

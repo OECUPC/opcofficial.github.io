@@ -31,7 +31,7 @@ const RenderPage = (body: string, meta: Meta)=>{
 }
 
 export default function Home(props: PageProps){
-    const path = `./static/blogs/${props.params.name}.md`;
+    const path = `./static/post/activitie/${props.params.name}/index.md`;
 
     try{
         const text = Deno.readTextFileSync(path);
@@ -44,17 +44,17 @@ export default function Home(props: PageProps){
     }catch(e){
         return (
             <>
-      <Head>
-        <title>404 - Page not found</title>
-      </Head>
-      <main className="hero center-align">
-        <h1 className="hero__title">404 - Page not found</h1>
-        <p className="hero__description">
-          お探しの記事は見つかりませんでした。
-        </p>
-        <a href="/blogs">記事一覧に戻る</a>
-      </main>
-    </>
-        )
+                <Head>
+                    <title>404 - Page not found</title>
+                </Head>
+                <main className="hero center-align">
+                    <h1 className="hero__title">404 - Page not found</h1>
+                    <p className="hero__description">
+                        お探しの活動は見つかりませんでした。
+                    </p>
+                    <a href="/blog">活動一覧に戻る</a>
+                </main>
+            </>
+        );
     }
 }
