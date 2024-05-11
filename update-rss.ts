@@ -29,7 +29,7 @@ const saveRSS = (savePath: string, rss: Feed) =>{
         <title>${rss.title.value}</title>
         <link>${rss.links[0]}</link>
         <description>${rss.description}</description>
-        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+        <lastBuildDate>${rss.updateDate?.toUTCString()}</lastBuildDate>
         <docs>http://rsss.law.harvard.edu/tech/rss</docs>
         <language>${rss.language}</language>
         <generator>OPCMS</generator>
@@ -120,6 +120,8 @@ const updateRSS = async (type: PostType)=>{
         items.push(item);
     }
 
+    let updatedFlag = false;
+
     const entries = items.map(item=>{
         const entry = rssFeed.entries.find(entry=>entry.id === item.id);
         
@@ -129,12 +131,15 @@ const updateRSS = async (type: PostType)=>{
             return item;
         }
 
+        updatedFlag = true;
+
         item.published = new Date();
         
         return item;
     });
 
     rssFeed.entries = entries;
+    rssFeed.updateDate = (updatedFlag) ? new Date():rssFeed.updateDate;
 
     saveRSS(rssPath, rssFeed);
 };
