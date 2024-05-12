@@ -16,11 +16,11 @@ categories: [ 競技プログラミング, C++, 勉強会 ]
 
 ## 問題例
 
-![問題 Ex_a. 最大](/post/activitie/ProgrammingQuestion_1/q1.png)
+![問題 Ex_a. 最大](/post/activity/ProgrammingQuestion_1/q1.png)
 
 <details><summary>解答例</summary>
 
-![解答例(C++) Ex_a. 最大](/post/activitie/ProgrammingQuestion_1/a1.png)
+![解答例(C++) Ex_a. 最大](/post/activity/ProgrammingQuestion_1/a1.png)
 </details>
 
 ## 今後の展望

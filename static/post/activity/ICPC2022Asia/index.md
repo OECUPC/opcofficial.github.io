@@ -29,7 +29,7 @@ ICPC（国際大学対抗プログラミングコンテスト）は、世界中�
 
 <a href="https://icpc.iisf.or.jp/2022-yokohama/domestic-results/">
     <p>ICPC 2022 国内予選 結果</p>
-    <img src="/post/activitie/ICPC2022Asia/thumbnail.png" alt="ICPC 2022 国内予選 結果" />
+    <img src="/post/activity/ICPC2022Asia/thumbnail.png" alt="ICPC 2022 国内予選 結果" />
 </a>
 
 ## 今後の目標

@@ -22,14 +22,14 @@ ICPC（国際大学対抗プログラミングコンテスト）は、世界中�
 - しゃけ
 
 ## 振り返り
-今回のコンテストでは110位と、[前回開催ICPC2022国内予選](/post/activitie/ICPC2022Asia/)の際より順位をあげることができました。<br />
+今回のコンテストでは110位と、[前回開催ICPC2022国内予選](/post/activity/ICPC2022Asia/)の際より順位をあげることができました。<br />
 また、チームとして多くの学びがありました。
 
 ## 写真やメディア
 
 <a href="https://icpc.iisf.or.jp/2023-yokohama/domestic/icpc-2023-result/">
     <p>ICPC 2023 国内予選 結果</p>
-    <img src="/post/activitie/ICPC2023Asia/thumbnail.png" alt="ICPC 2023 国内予選 結果" />
+    <img src="/post/activity/ICPC2023Asia/thumbnail.png" alt="ICPC 2023 国内予選 結果" />
 </a>
 
 ## 今後の目標
