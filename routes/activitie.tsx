@@ -40,7 +40,7 @@ export default function Home({ data }: PageProps<Data>) {
 									}
 									<figcaption className="article-cards__item__description">
 										<h3 className="article-cards__item__title">{entry.title?.value}</h3>
-										<p>{
+										<p>投稿日: {
 											entry.updated?.toLocaleString("ja-jp", {
 												year: "numeric",
 												month: "2-digit",
@@ -50,6 +50,9 @@ export default function Home({ data }: PageProps<Data>) {
 										<p>
 											{(0 < (entry.author?.name?.length || 0)) ? "執筆者:": ""}
 											{entry.author?.name}
+										</p>
+										<p>
+											{entry.description?.value}
 										</p>
 									</figcaption>
 								</figure>								

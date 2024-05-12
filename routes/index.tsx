@@ -59,8 +59,8 @@ export default function Home() {
   const Contents = [
     {
       "title": "目的",
-      "image": "https://placehold.jp/640x480.png",
-      "imageAlt": "ダミー",
+      "image": "/images/intro/icon.png",
+      "imageAlt": "オフィシャルアイコン",
       "content": (  
         <div>
           <p>
@@ -78,8 +78,8 @@ export default function Home() {
     },
     {
       "title": "活動内容",
-      "image": "https://placehold.jp/640x480.png",
-      "imageAlt": "ダミー",
+      "image": "/images/intro/activitie.jpg",
+      "imageAlt": "活動風景",
       "content": (
         <div>
           <ul>
@@ -99,8 +99,8 @@ export default function Home() {
     },
     {
       "title": "活動場所",
-      "image": "https://placehold.jp/640x480.png",
-      "imageAlt": "ダミー",
+      "image": "/images/intro/place.jpg",
+      "imageAlt": "本学6号館の画像",
       "content": (
         <div>
           <ul>
@@ -118,7 +118,7 @@ export default function Home() {
     },
     {
       "title": "活動人数",
-      "image": "https://placehold.jp/640x480.png",
+      "image": "/images/no_image.png",
       "imageAlt": "ダミー",
       "content": (
         <div>
@@ -136,7 +136,7 @@ export default function Home() {
     },
     {
       "title": "相談・入部等",
-      "image": "https://placehold.jp/640x480.png",
+      "image": "/images/intro/profile.png",
       "imageAlt": "ダミー",
       "content": (
         <div>
@@ -172,7 +172,7 @@ export default function Home() {
             </section>
           ))}
         </article>
-        <article>
+        <article className="member-introduce">
           <h2>部員紹介</h2>
           <section>
             <h3>代表</h3>

@@ -5,8 +5,8 @@ categories: [ 競技プログラミング, ICPC ]
 ---
 
 ## 概要
-- **イベント名**: ICPC 2022 Asia Yokohama Regional 国内予選
-- **実施日**: 2022年7月8日
+- **イベント名**: ICPC 2023 Asia Yokohama Regional 国内予選
+- **実施日**: 2023年7月7日
 - **チーム名**: OPC
 
 ## 目的

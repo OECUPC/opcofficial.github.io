@@ -9,10 +9,6 @@ export function Header() {
       "href": "/activitie",
     },
     {
-      "text": "Works",
-      "href": "/works",
-    },
-    {
       "text": "Blog",
       "href": "/blog",
     },
