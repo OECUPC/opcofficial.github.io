@@ -13,7 +13,7 @@ interface Data{
 };
 
 export default function BlogArticle({ id, type }: Data) {
-    const path = `./static/post/activitie/${id}/index.md`;
+    const path = `./static/post/${type}/${id}/index.md`;
 
     const typeName = GetBlogTypeNameFromType(type);
 

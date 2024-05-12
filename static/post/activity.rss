@@ -2,9 +2,9 @@
 <rss version="2.0">
     <channel>
         <title>OECUプログラミングサークル 活動詳細ブログ</title>
-        <link>https://opcofficial.deno.dev/activitie/</link>
+        <link>https://opcofficial.deno.dev/activity/</link>
         <description>これは活動詳細ブログ</description>
-        <lastBuildDate>Sat, 11 May 2024 18:26:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 May 2024 10:20:26 GMT</lastBuildDate>
         <docs>http://rsss.law.harvard.edu/tech/rss</docs>
         <language>ja-jp</language>
         <generator>OPCMS</generator>
@@ -16,10 +16,10 @@
 ## 概要
 - **イベント名**: ICPC 2022 Asia Yokohama Region
             </description>
-            <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
-            <guid isPermalink="false">oecupc-activitie://ICPC2022Asia</guid>
+            <pubDate>Sun, 12 May 2024 10:20:26 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activity://ICPC2022Asia</guid>
             <category>競技プログラミング</category><category>ICPC</category>
-            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/ICPC2022Asia/thumbnail.png" length="572687" type="image/png" />
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activity/ICPC2022Asia/thumbnail.png" length="572687" type="image/png" />
         </item>
 
         <item>
@@ -29,10 +29,10 @@
 ## 概要
 - **イベント名**: ICPC 2023 Asia Yokohama Region
             </description>
-            <pubDate>Sat, 11 May 2024 18:17:11 GMT</pubDate>
-            <guid isPermalink="false">oecupc-activitie://ICPC2023Asia</guid>
+            <pubDate>Sun, 12 May 2024 10:20:26 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activity://ICPC2023Asia</guid>
             <category>競技プログラミング</category><category>ICPC</category>
-            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/ICPC2023Asia/thumbnail.png" length="271740" type="image/png" />
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activity/ICPC2023Asia/thumbnail.png" length="271740" type="image/png" />
         </item>
 
         <item>
@@ -44,10 +44,10 @@
 ## 活動内容
 プログラミングスキルの向上を目指し、
             </description>
-            <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
-            <guid isPermalink="false">oecupc-activitie://ProgrammingQuestion_1</guid>
+            <pubDate>Sun, 12 May 2024 10:20:26 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activity://ProgrammingQuestion_1</guid>
             <category>競技プログラミング</category><category>C++</category><category>勉強会</category>
-            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/ProgrammingQuestion_1/thumbnail.png" length="250116" type="image/png" />
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activity/ProgrammingQuestion_1/thumbnail.png" length="250116" type="image/png" />
         </item>
 
         <item>
@@ -57,10 +57,10 @@
 ## 概要
 - **イベント名**: Siv3D 勉強会 in 大阪電気通信大学 (2022, オ
             </description>
-            <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
-            <guid isPermalink="false">oecupc-activitie://Siv3DStudy2022</guid>
+            <pubDate>Sun, 12 May 2024 10:20:26 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activity://Siv3DStudy2022</guid>
             <category>Siv3D</category><category>C++</category><category>勉強会</category>
-            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/Siv3DStudy2022/thumbnail.png" length="23783" type="image/png" />
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activity/Siv3DStudy2022/thumbnail.png" length="23783" type="image/png" />
         </item>
 
         <item>
@@ -70,10 +70,10 @@
 ## 概要
 - **イベント名**: Siv3D 勉強会 in 大阪電気通信大学 (2023, オ
             </description>
-            <pubDate>Sat, 11 May 2024 18:26:16 GMT</pubDate>
-            <guid isPermalink="false">oecupc-activitie://Siv3DStudy2023</guid>
+            <pubDate>Sun, 12 May 2024 10:20:26 GMT</pubDate>
+            <guid isPermalink="false">oecupc-activity://Siv3DStudy2023</guid>
             <category>Siv3D</category><category>C++</category><category>勉強会</category>
-            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activitie/Siv3DStudy2023/thumbnail.png" length="23783" type="image/png" />
+            <enclosure url="https://raw.githubusercontent.com/OECUPC/opcofficial/fresh_dev/static/post/activity/Siv3DStudy2023/thumbnail.png" length="23783" type="image/png" />
         </item>
     </channel>
 </rss>

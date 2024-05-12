@@ -3,12 +3,9 @@ import { FeedEntry } from "rss/src/types/feed.ts";
 
 import { MDParser } from "./tools/MDParser.ts";
 
-const postDir = './static/post/';
+import { BlogType } from "./tools/utils.ts";
 
-enum PostType {
-    Blog = "blog",
-    Activitie = "activitie"
-};
+const postDir = './static/post/';
 
 const MaxDescriptionChars = 50;
 
@@ -61,7 +58,7 @@ ${entry.description?.value}
     Deno.writeTextFileSync(savePath, fileText);
 }
 
-const updateRSS = async (type: PostType)=>{
+const updateRSS = async (type: BlogType)=>{
 
     const baseDir = `${postDir}${type}`;
     const rssPath = `${postDir}${type}.rss`;
@@ -145,8 +142,8 @@ const updateRSS = async (type: PostType)=>{
 };
 
 function main(){
-    updateRSS(PostType.Blog);
-    updateRSS(PostType.Activitie);
+    updateRSS(BlogType.blog);
+    updateRSS(BlogType.activity);
 }
 
 main();

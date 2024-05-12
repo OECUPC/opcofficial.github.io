@@ -5,8 +5,8 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.tsx";
-import * as $activitie from "./routes/activitie.tsx";
-import * as $activitie_name_ from "./routes/activitie/[name].tsx";
+import * as $activity from "./routes/activity.tsx";
+import * as $activity_name_ from "./routes/activity/[name].tsx";
 import * as $api_login from "./routes/api/login.ts";
 import * as $api_post from "./routes/api/post.ts";
 import * as $blog from "./routes/blog.tsx";
@@ -23,8 +23,8 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/_middleware.tsx": $_middleware,
-    "./routes/activitie.tsx": $activitie,
-    "./routes/activitie/[name].tsx": $activitie_name_,
+    "./routes/activity.tsx": $activity,
+    "./routes/activity/[name].tsx": $activity_name_,
     "./routes/api/login.ts": $api_login,
     "./routes/api/post.ts": $api_post,
     "./routes/blog.tsx": $blog,

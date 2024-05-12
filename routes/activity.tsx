@@ -9,7 +9,7 @@ interface Data {
 export const handler: Handlers<Data> = {
 	async GET(_req, ctx) {
 
-		const xml = await Deno.readTextFile("./static/post/activitie.rss");
+		const xml = await Deno.readTextFile("./static/post/activity.rss");
 		const feed = await parseFeed(xml);
 
 		return ctx.render({ feed });
@@ -33,7 +33,7 @@ export default function Home({ data }: PageProps<Data>) {
 				<article className="article-cards grid-container">
 					{feed.entries.map(entry => (
 						<section className="article-cards__item">
-							<a href={`/activitie/${entry.id.replace('oecupc-activitie://', '')}`}>
+							<a href={`/activity/${entry.id.replace('oecupc-activity://', '')}`}>
 								<figure className="article-cards__item__attachment">
 									{
 											<img className="article-cards__item__attachment__image" src={entry.attachments?.at(0)?.url} alt="" />

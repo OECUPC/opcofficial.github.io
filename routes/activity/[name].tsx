@@ -4,5 +4,5 @@ import BlogArticle from "../../components/BlogArticle.tsx";
 import { BlogType } from "../../tools/utils.ts";
 
 export default function Home(props: PageProps){
-    return <BlogArticle id={props.params.name} type={BlogType.activitie}/>
+    return <BlogArticle id={props.params.name} type={BlogType.activity}/>
 }

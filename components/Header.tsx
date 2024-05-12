@@ -5,8 +5,8 @@ export function Header() {
       "href": "/",
     },
     {
-      "text": "Activitie",
-      "href": "/activitie",
+      "text": "Activity",
+      "href": "/activity",
     },
     {
       "text": "Blog",

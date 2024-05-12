@@ -1,4 +1,4 @@
 export enum BlogType {
     blog = "blog",
-    activitie = "activitie"
+    activity = "activity"
 };
