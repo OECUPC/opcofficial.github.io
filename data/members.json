@@ -2,11 +2,11 @@
     "leaders": [
         {
             "name": "錦",
-            "entered": 2021,
+            "entered": 2022,
             "faculty": "HT",
             "belonging": [
                 "プログラミングサークル",
-                "電子計算組織研究会(EDPS)"
+                "通信研究会(CRC)"
             ],
             "sns": [
                 
@@ -16,12 +16,12 @@
     "subleaders": [
         {
             "name": "みかみん",
-            "entered": 2023,
+            "entered": 2024,
             "faculty": "HW",
             "belonging": [
                 "プログラミングサークル",
                 "東方電通録",
-                "電子計算組織研究会(EDPS)"
+                "通信研究会(CRC)"
             ],
             "sns": [
             ]
@@ -30,12 +30,12 @@
     "accountants": [
         {
             "name": "けいと",
-            "entered": 2023,
+            "entered": 2024,
             "faculty": "HW",
             "belonging": [
                 "プログラミングサークル",
                 "東方電通録",
-                "電子計算組織研究会(EDPS)"
+                "通信研究会(CRC)"
             ],
             "sns": [
                 {
@@ -48,12 +48,11 @@
     "members": [
         {
             "name": "しゃけ",
-            "entered": 2021,
+            "entered": 2024,
             "faculty": "GP",
             "belonging": [
                 "プログラミングサークル",
-                "東方電通録",
-                "電子計算組織研究会(EDPS)"
+                "東方電通録"
             ],
             "sns": [
                 {
@@ -64,7 +63,7 @@
         },
         {
             "name": "MM",
-            "entered": 2021,
+            "entered": 2024,
             "faculty": "HB",
             "belonging": [
                 "プログラミングサークル"
