@@ -2,6 +2,7 @@
 title: ICPC 2023 国内予選
 author: たすくん
 categories: [ 競技プログラミング, ICPC ]
+description: ICPC 2023 国内予選にチーム名OPCで出場しました。
 ---
 
 ## 概要

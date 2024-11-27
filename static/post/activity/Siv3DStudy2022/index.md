@@ -2,6 +2,7 @@
 title: Siv3D勉強会 2022
 author: たすくん
 categories: [ Siv3D, C++, 勉強会 ]
+description: Siv3D勉強会 2022を開催しました。
 ---
 
 ## 概要

@@ -96,7 +96,7 @@ const updateRSS = async (type: BlogType)=>{
             },
             description: {
                 type: "text",
-                value: md.body.substring(0, MaxDescriptionChars)
+                value: md.meta.description
             },
             links: [],
             id: articleId,

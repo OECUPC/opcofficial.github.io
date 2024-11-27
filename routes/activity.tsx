@@ -1,6 +1,8 @@
-import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { parseFeed, Feed } from "rss/mod.ts";
+
+import ArticleCards from "../components/ArticleCards.tsx";
+import { BlogType } from "../tools/utils.ts";
 
 interface Data {
 	feed: Feed
@@ -22,45 +24,6 @@ export default function Home({ data }: PageProps<Data>) {
 	console.log(feed);
 
 	return (
-		<>
-			<Head>
-				<link rel="stylesheet" href="/styles/css/blog.css" />
-			</Head>
-			<main>
-				<h1 className="center-align">活動詳細</h1>
-				{/*<h1 className="center-align">{feed.title.value}</h1>*/}
-
-				<article className="article-cards grid-container">
-					{feed.entries.map(entry => (
-						<section className="article-cards__item">
-							<a href={`/activity/${entry.id.replace('oecupc-activity://', '')}`}>
-								<figure className="article-cards__item__attachment">
-									{
-											<img className="article-cards__item__attachment__image" src={entry.attachments?.at(0)?.url} alt="" />
-									}
-									<figcaption className="article-cards__item__description">
-										<h3 className="article-cards__item__title">{entry.title?.value}</h3>
-										<p>投稿日: {
-											entry.updated?.toLocaleString("ja-jp", {
-												year: "numeric",
-												month: "2-digit",
-												day: "2-digit"
-											}).replaceAll('/', '-')
-										}</p>
-										<p>
-											{(0 < (entry.author?.name?.length || 0)) ? "執筆者:": ""}
-											{entry.author?.name}
-										</p>
-										<p>
-											{entry.description?.value}
-										</p>
-									</figcaption>
-								</figure>								
-							</a>
-						</section>
-					))}
-				</article>
-			</main>
-		</>
+		<ArticleCards title="活動詳細" type={BlogType.activity} feed={feed} />
 	);
 }
